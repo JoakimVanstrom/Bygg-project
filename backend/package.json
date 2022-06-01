@@ -1,0 +1,35 @@
+{
+  "name": "inge-bra-bygg-ab",
+  "version": "1.0.0",
+  "description": "![poster](./poster.png)\r # Inge Bra Bygg AB\r **Ärende och kommunikationsplattform mellan byggare och kunder för byggfirman Inge Bra Bygg AB.**",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node database/setup.js",
+    "seed": "node database/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99ru/Inge-Bra-Bygg-AB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/99ru/Inge-Bra-Bygg-AB/issues"
+  },
+  "homepage": "https://github.com/99ru/Inge-Bra-Bygg-AB#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-fileupload": "^1.3.1",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.6",
+    "uuid": "^8.3.2"
+  }
+}

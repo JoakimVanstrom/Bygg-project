@@ -1,0 +1,9 @@
+node_modules
+.env
+**/*database/*.sqlite
+tmp
+**/*images/*.png
+**/*images/*.jpg
+**/*images/*.jpeg
+**/*images/*.gif
+**/*images/*.svg
